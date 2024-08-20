@@ -24,8 +24,6 @@ Install the dependencies
 
 First, install the dependencies for both the server and client:
 
-bash
-Copy code
 # For the server
 cd server
 npm install
@@ -35,21 +33,18 @@ cd vegefood
 npm install
 
 
-Create a .env file in the server directory and add your MongoDB connection string:
+#Create a .env file in the server directory and add your MongoDB connection string:
 
-env
-Copy code
 MONGO_URI=your_mongodb_connection_string
-add your own mongodb uri code or connection method
 
 
 
-Run the application
 
-Start the server and client:
+#Run the application
 
-bash
-Copy code
+#Start the server and client:
+
+
 # Start the server
 cd server
 node index.js
